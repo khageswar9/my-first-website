@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(rgb(0, 0, 0) ,rgb(124, 1, 1));
+    background-size: cover;
+    background-position: center center;
+    height: 205vh;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-size: 4em;
+}
+P{
+    margin-left: 100PX;
+    margin-top: 20px;
+    font-size: 20PX;
+    color: white;
+}
+H1{
+    margin: 0 0 0 100PX;
+    color: white;
+    margin-top: 20px;
+}
+ol li{
+    color: white;
+    margin-left: 200px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+ol a{
+    text-decoration: none;
+}

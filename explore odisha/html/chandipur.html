@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/chandipur.css">
+</head>
+<body>
+    <div id="header"></div>
+
+
+        <section>
+            <h2>Chandipur Sea Beach</h2>
+            <p>Charming Chandipur , one of thr finest beaches of India, lies 16kms. from Balasore and is well connected by road.
+                The beach backed up by the swaying casuarinatree and sand-dunes covered by wild creepers experience a unique phenomenon, as the waters recedes here about five kilometers offshore and proceeds rhythmically after a regular interval everyday.
+                One can enjoy literally  walking into the sea and also collect abundant sea-shells and driftwood along the beach.
+            </p>
+
+
+        </section>
+
+
+       <div class="info">
+                <h2>Travel Info</h2>
+                <p>Best time to visit: Monsoon,Winter(Oct-Mar)</p>
+                <p>District: Balasore</p>
+                <p>Open Time: 24hrs</p>
+                <p>Popular Cuisine: Prawns,Crabs </p>
+                <p>Attraction: Sea disappearing from the sight, Golden Beach Festival</p>
+                <p>Nearest Bus Stop: Balasore,Chandipur</p>
+                <p>Nearest Railway Station: Balasore(16km)</p>
+                <p>Travel Options: Taxi,Bus,Auto</p>
+                <p>Distance From Bhubaneswar: 208km</p>
+    
+            </div>
+        
+
+        
+
+
+        <script type="text/javascript">
+            const bg = document.getElementById('header');
+            window.addEventListener('scroll',function(){
+                bg.style.backgroundSize = 130 - +window.pageYOffset/12+'%';
+                bg.style.opacity = 1 - +window.pageYOffset/700+'';
+            })
+        </script>
+</body>
+</html>
